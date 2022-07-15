@@ -48,7 +48,7 @@ function KiemTra()
         return false;
     }
 
-    if (mk.length < 5)
+    if (mk.length < 4)
     {
         window.alert("Mat khau ngan qua.");
         document.dangky.txtMatKhau.focus();

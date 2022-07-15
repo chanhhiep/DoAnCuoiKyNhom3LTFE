@@ -4,7 +4,7 @@ function KiemTra()
     var ten = window.document.dangky.txtTenDN.value;
     var mk = window.document.dangky.txtMatKhau.value;
     var ad= "admin";
-    var ad1= "admin123";
+    var pass= "admin123";
 
     if(ten!=ad)
     {
@@ -13,7 +13,7 @@ function KiemTra()
         return false;
     }
 
-    if (mk!==ad1)
+    if (mk!==pass)
     {
         window.alert("Mat khau sai");
         document.dangky.txtMatKhau.focus();
@@ -21,7 +21,7 @@ function KiemTra()
 
     }
 
-    else if (mk=ad1)
+    else if (mk=pass)
         window.alert("ĐĂNG NHẬP THÀNH CÔNG");
 
 }
