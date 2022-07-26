@@ -17,22 +17,27 @@ body {
   height: 90px;
   background-color: #132433;
 }
-#header input[type=text] {
+
+#header input[type="text"] {
   width: 300px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: 1px solid black;
   border-radius: 4px;
   outline: none;
   padding: 12px 14px;
+  -webkit-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
   margin-top: 15px;
   background-color: #151D28;
   color: #eee;
 }
+
 #header form {
   float: right;
 }
-#header input[type=submit] {
+
+#header input[type="submit"] {
   width: 40px;
   height: 40px;
   margin-top: 20px;
@@ -42,23 +47,27 @@ body {
   border-radius: 4px;
   background-repeat: no-repeat;
 }
+
 #header .img1 {
   width: 130px;
   height: 90px;
   float: left;
 }
+
 #header .h2 {
   float: left;
   margin-left: 20px;
   color: #fff;
   font-size: 26px;
 }
+
 #header .dk {
   float: right;
   padding-top: 10px;
   color: #FFF;
   padding-right: 50px;
 }
+
 #header .dk h3 {
   color: #f00000;
 }
@@ -70,18 +79,22 @@ body {
   font-size: large;
   border: 1px solid #fff;
 }
+
 #menu h3 {
   color: #f00;
 }
+
 #menu .ul {
   float: left;
   margin-left: 65px;
 }
+
 #menu .ul ul {
   width: 100%;
   list-style-type: none;
   float: left;
 }
+
 #menu .ul ul li {
   display: inline-block;
   width: 115px;
@@ -89,21 +102,25 @@ body {
   text-align: center;
   padding-top: 5px;
 }
+
 #menu .ul ul li .a1 {
   color: #fff;
   font-size: 20px;
   text-decoration: none;
 }
+
 #menu .dk {
   float: right;
   padding-top: 10px;
   color: #eee;
   padding-right: 10px;
 }
+
 #menu .dk a {
   color: #eee;
   text-decoration: none;
 }
+
 #menu a:hover {
   color: #d00;
 }
@@ -111,24 +128,30 @@ body {
 #noi-dung {
   width: 1170px;
   margin-left: 90px;
+  margin-top: 250px;
+  height: 10px;
 }
+
 #noi-dung #contend {
   width: 830px;
   float: left;
   background-color: #fff;
 }
+
 #noi-dung #contend .contend-1 {
   width: 830px;
   height: 465px;
   float: left;
   border: 0px solid #010;
 }
+
 #noi-dung #contend .contend-1 .contend-11 {
   width: 600px;
   height: 465px;
   float: left;
   border: 0px solid #010;
 }
+
 #noi-dung #contend .contend-1 .div1212 {
   width: 220px;
   height: 400px;
@@ -167,6 +190,7 @@ hr {
   text-align: center;
   margin-bottom: 5px;
 }
+
 .divtb p {
   color: #EEE;
   padding-top: 3px;
@@ -181,14 +205,17 @@ hr {
   padding-left: 18px;
   background-color: #EEE;
 }
+
 .right .qc1 {
   width: 300px;
   height: 80px;
 }
+
 .right .qc4 {
   width: 300px;
   height: 450px;
 }
+
 .right h3 {
   color: #FF6666;
 }
@@ -198,6 +225,7 @@ hr {
   height: 80px;
   border: 0px solid;
 }
+
 .r1 img {
   width: 55px;
   height: 55px;
@@ -215,6 +243,7 @@ b {
   background-color: #192433;
   clear: both;
 }
+
 #footer .divft {
   width: 200px;
   height: 220px;
@@ -225,15 +254,19 @@ b {
   line-height: 30px;
   padding-top: 20px;
 }
+
 #footer .divft a {
   color: #AAAAAA;
 }
+
 #footer .divft a:hover {
   color: #EEEEEE;
 }
+
 #footer .divft h4 {
   color: #EEEEEE;
 }
+
 #footer .divft1 {
   width: 1344px;
   height: 50px;
@@ -242,9 +275,11 @@ b {
   background-color: #151D28;
   padding-left: 15px;
 }
+
 #footer .divft1 a {
   color: #33FFFF;
 }
+
 #footer .divft1 p {
   margin-top: -12px;
 }
@@ -256,18 +291,22 @@ span {
   float: left;
   padding-bottom: 17px;
 }
+
 span img {
   float: left;
   padding-right: 20px;
 }
+
 span p {
   float: right;
   padding-top: 50px;
   font-style: italic;
 }
+
 span h2 {
   font-size: 23px;
 }
+
 span h4 {
   font-size: 15px;
 }
@@ -279,22 +318,27 @@ span h4 {
   background-color: white;
   margin-left: 90px;
 }
+
 #login .tk {
   margin-left: 200px;
   float: left;
 }
+
 #login .tk2 {
   float: left;
   margin-left: 200px;
 }
+
 #login input {
   width: 300px;
   height: 30px;
 }
-#login input[type=submit] {
+
+#login input[type="submit"] {
   background-color: #F93;
   height: 50px;
 }
+
 #login .login1 {
   width: 450px;
   float: left;
@@ -304,6 +348,7 @@ span h4 {
   margin-left: 150px;
   line-height: 2;
 }
+
 #login .login2 {
   width: 350px;
   height: 250px;
@@ -315,6 +360,7 @@ span h4 {
   text-shadow: #F00;
   text-align: center;
 }
+
 #login .login2 img {
   margin-top: 10px;
 }
@@ -326,16 +372,19 @@ span h4 {
   background-color: #FFF;
   margin-left: 90px;
 }
+
 #gb h2 {
   margin-top: 10px;
   float: left;
   color: #1795D5;
 }
+
 #gb img {
   float: left;
   width: 70px;
   height: 50px;
 }
+
 #gb .gp1 {
   width: 550px;
   float: left;
@@ -343,16 +392,20 @@ span h4 {
   height: 200px;
   background-color: #FFF;
 }
+
 #gb .gp1 hr {
   color: #E00;
 }
+
 #gb .gp1 ul {
   margin-left: 50px;
   margin-top: 30px;
 }
+
 #gb .gp1 li {
   height: 35px;
 }
+
 #gb .gb2 {
   width: 570px;
   float: right;
@@ -360,10 +413,12 @@ span h4 {
   height: auto;
   background-color: #FFF;
 }
+
 #gb .gb2 ul {
   margin-left: 30px;
   margin-top: 0px;
 }
+
 #gb .gb3 {
   width: 600px;
   border: 0px solid #010;
@@ -373,10 +428,12 @@ span h4 {
   margin-left: 300PX;
   margin-bottom: 200px;
 }
+
 #gb .gb3 h3 {
   color: #f00000;
   text-align: center;
 }
+
 #gb .gb3 input {
   width: 150px;
 }
@@ -392,5 +449,4 @@ span h4 {
   height: 150px;
   background-color: #FFF;
 }
-
 /*# sourceMappingURL=app_tin_tuc.css.map */

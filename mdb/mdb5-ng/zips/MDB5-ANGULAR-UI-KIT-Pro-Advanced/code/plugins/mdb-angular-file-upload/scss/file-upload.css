@@ -12,11 +12,17 @@
   opacity: 0.06;
 }
 
-.file-upload-input.has-multiple ~ .file-upload-previews .file-upload-preview:hover .file-upload-preview-details {
+.file-upload-input.has-multiple
+~ .file-upload-previews
+.file-upload-preview:hover
+.file-upload-preview-details {
   opacity: 1;
 }
 
-.file-upload:hover .file-upload-input:not(.has-multiple) ~ .file-upload-previews .file-upload-preview-details {
+.file-upload:hover
+.file-upload-input:not(.has-multiple)
+~ .file-upload-previews
+.file-upload-preview-details {
   opacity: 1;
 }
 
@@ -25,12 +31,15 @@
 }
 
 .file-upload.has-error .file-upload-errors {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .file-upload.disabled {
   pointer-events: none;
 }
+
 .file-upload.disabled .file-upload-message {
   opacity: 0.5;
   text-decoration: line-through;
@@ -42,10 +51,19 @@
   height: 100%;
   top: 0;
   left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .file-upload-cloud-icon {
@@ -81,6 +99,7 @@
   width: 100%;
   opacity: 0;
   background-color: #000;
+  -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
@@ -93,8 +112,14 @@
   width: 100%;
   height: 100%;
   background: rgba(243, 65, 65, 0.8);
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
@@ -103,6 +128,8 @@
 }
 
 .file-upload-previews {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 100%;
@@ -112,8 +139,11 @@
   background-color: #fff;
   cursor: pointer;
   position: relative;
-  flex-grow: 1;
-  flex-basis: 0;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
 }
 
 .file-upload-render {
@@ -126,7 +156,6 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   position: absolute;
   color: #777;
@@ -137,7 +166,6 @@
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   margin-top: 10px;
   text-transform: uppercase;
@@ -148,14 +176,14 @@
   width: 42px;
   white-space: nowrap;
   overflow: hidden;
-  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
 
 .file-upload-preview-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .file-upload-preview-details {
@@ -166,11 +194,19 @@
   left: 0;
   color: rgba(255, 255, 255, 0.959);
   background: rgba(0, 0, 0, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   display: flex;
   opacity: 0;
+  -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
@@ -183,13 +219,18 @@
 
 .file-upload-details-container {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .file-upload-preview-details-inner {
   text-align: center;
 }
-
 /*# sourceMappingURL=file-upload.css.map */

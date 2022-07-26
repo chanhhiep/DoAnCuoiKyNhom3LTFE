@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"seo.component.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "seo.component.scss"
+    ],
+    "names": [],
+    "file": "seo.component.css"
+}

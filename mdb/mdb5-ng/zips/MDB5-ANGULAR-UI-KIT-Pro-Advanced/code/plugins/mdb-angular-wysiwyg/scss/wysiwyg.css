@@ -10,9 +10,11 @@
 .wysiwyg-content {
   min-height: 450px;
 }
+
 .wysiwyg-content:focus {
   outline: none;
 }
+
 .wysiwyg-content.wysiwyg-show-html {
   white-space: pre-line;
 }
@@ -23,7 +25,7 @@
 }
 
 .wysiwyg-toolbar-group:not(:first-child):not(.ml-auto):before {
-  content: "";
+  content: '';
   position: absolute;
   height: 1.2rem;
   width: 0;
@@ -56,5 +58,4 @@
   border-right: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 0;
 }
-
 /*# sourceMappingURL=wysiwyg.css.map */

@@ -1,40 +1,48 @@
 .treeview {
   width: 100%;
 }
+
 .treeview .active,
 .treeview .treeview-category {
   padding: 0 0.4rem 0 0.4rem;
   border-radius: 5px;
 }
+
 .treeview .treeview-line {
   border-left: 2px solid rgba(0, 0, 0, 0.08);
 }
+
 .treeview .non-transitions {
   -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -o-transition: none !important;
   transition: none !important;
 }
+
 .treeview .treeview-disabled {
   color: rgba(0, 0, 0, 0.25) !important;
   cursor: not-allowed;
 }
+
 .treeview ul {
   margin-left: 0.8rem;
   padding-left: 0.8rem;
 }
+
 .treeview li {
   list-style-type: none;
   margin: 3px 0 3px 0;
 }
+
 .treeview a {
   color: #4f4f4f;
   display: block;
 }
-.treeview a[data-mdb-toggle=collapse] {
+
+.treeview a[data-mdb-toggle='collapse'] {
   color: unset;
 }
-.treeview span[aria-label=toggle] i {
+
+.treeview span[aria-label='toggle'] i {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -47,6 +55,7 @@
   color: #1266f1 !important;
   background-color: rgba(18, 102, 241, 0.05);
 }
+
 .treeview-primary li:focus,
 .treeview-primary a:focus {
   outline: none;
@@ -61,6 +70,7 @@
   color: #b23cfd !important;
   background-color: rgba(178, 60, 253, 0.05);
 }
+
 .treeview-secondary li:focus,
 .treeview-secondary a:focus {
   outline: none;
@@ -75,6 +85,7 @@
   color: #00b74a !important;
   background-color: rgba(0, 183, 74, 0.05);
 }
+
 .treeview-success li:focus,
 .treeview-success a:focus {
   outline: none;
@@ -89,6 +100,7 @@
   color: #39c0ed !important;
   background-color: rgba(57, 192, 237, 0.05);
 }
+
 .treeview-info li:focus,
 .treeview-info a:focus {
   outline: none;
@@ -103,6 +115,7 @@
   color: #ffa900 !important;
   background-color: rgba(255, 169, 0, 0.05);
 }
+
 .treeview-warning li:focus,
 .treeview-warning a:focus {
   outline: none;
@@ -117,6 +130,7 @@
   color: #f93154 !important;
   background-color: rgba(249, 49, 84, 0.05);
 }
+
 .treeview-danger li:focus,
 .treeview-danger a:focus {
   outline: none;
@@ -131,6 +145,7 @@
   color: #fbfbfb !important;
   background-color: rgba(251, 251, 251, 0.05);
 }
+
 .treeview-light li:focus,
 .treeview-light a:focus {
   outline: none;
@@ -145,10 +160,10 @@
   color: #262626 !important;
   background-color: rgba(38, 38, 38, 0.05);
 }
+
 .treeview-dark li:focus,
 .treeview-dark a:focus {
   outline: none;
   background-color: rgba(38, 38, 38, 0.05);
 }
-
 /*# sourceMappingURL=treeview.css.map */

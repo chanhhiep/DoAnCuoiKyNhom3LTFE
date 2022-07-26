@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"ecommerce1.component.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "ecommerce1.component.scss"
+    ],
+    "names": [],
+    "file": "ecommerce1.component.css"
+}
