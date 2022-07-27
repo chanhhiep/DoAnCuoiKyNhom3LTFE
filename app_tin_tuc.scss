@@ -129,7 +129,7 @@ body {
   width: 1170px;
   margin-left: 90px;
   margin-top: 250px;
-  height: 10px;
+  height: 1500px;
   #contend {
     width: 830px;
     float: left;
@@ -312,11 +312,14 @@ span {
 
 #login {
   width: 1170px;
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 0px solid #010;
   background-color: white;
   margin-left: 90px;
-
+  margin-top: 200px;
   .tk {
     margin-left: 200px;
     float: left;
@@ -367,11 +370,15 @@ span {
 
 #gb {
   width: 1170px;
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border: 1px solid #010;
   background-color: #FFF;
   margin-left: 90px;
-
+  margin-bottom: 50px;
+  margin-top: 200px;
   h2 {
     margin-top: 10px;
     float: left;
