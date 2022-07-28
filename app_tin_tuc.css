@@ -8,14 +8,14 @@ body {
 }
 
 #wrap {
-  width: 1344px;
+  width: 1700px;
   margin: auto;
 }
 
 #header {
   width: 100%;
   height: 90px;
-  background-color: #132433;
+  background-color: #78b43d;
 }
 
 #header input[type="text"] {
@@ -29,7 +29,7 @@ body {
   -webkit-transition: 0.6s ease-in-out;
   transition: 0.6s ease-in-out;
   margin-top: 15px;
-  background-color: #151D28;
+  background-color: #78b43d;
   color: #eee;
 }
 
@@ -74,8 +74,8 @@ body {
 
 #menu {
   width: 100%;
-  height: 52px;
-  background-color: #151D28;
+  height: 50px;
+  background-color: #78b43d;
   font-size: large;
   border: 1px solid #fff;
 }
@@ -86,7 +86,7 @@ body {
 
 #menu .ul {
   float: left;
-  margin-left: 65px;
+  margin-left: 20px;
 }
 
 #menu .ul ul {
@@ -100,12 +100,12 @@ body {
   width: 115px;
   height: 40px;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 0px;
 }
 
 #menu .ul ul li .a1 {
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   text-decoration: none;
 }
 
@@ -125,6 +125,7 @@ body {
   color: #d00;
 }
 
+<<<<<<< HEAD
 #noi-dung {
   width: 1170px;
   margin-left: 90px;
@@ -237,15 +238,17 @@ b {
   text-align: justify;
 }
 
+=======
+>>>>>>> 859c12ac47c863245bc04ab4067071fc2b0ba2b9
 #footer {
-  width: 1344px;
+  width: 1700px;
   height: 300px;
-  background-color: #192433;
+  background-color: #78b43d;
   clear: both;
 }
 
 #footer .divft {
-  width: 200px;
+  width: 300px;
   height: 220px;
   border: 0px solid #EEE;
   float: left;
@@ -256,7 +259,7 @@ b {
 }
 
 #footer .divft a {
-  color: #AAAAAA;
+  color: #eeeeee;
 }
 
 #footer .divft a:hover {
@@ -268,11 +271,11 @@ b {
 }
 
 #footer .divft1 {
-  width: 1344px;
+  width: 1700px;
   height: 50px;
-  border: 0px solid;
+  border: 1px solid;
   float: left;
-  background-color: #151D28;
+  background-color: #78b43d;
   padding-left: 15px;
 }
 
@@ -357,18 +360,16 @@ span h4 {
   float: left;
   border: 0px solid #010;
   background-color: #FFF;
-  float: left;
   margin-left: 150px;
   line-height: 2;
 }
 
 #login .login2 {
-  width: 350px;
+  width: 305px;
   height: 250px;
   float: left;
   border: 0px solid #010;
   background-color: #FFF;
-  float: left;
   line-height: 2;
   text-shadow: #F00;
   text-align: center;
@@ -465,15 +466,46 @@ span h4 {
   width: 150px;
 }
 
-.gui {
-  width: 100px;
+#title {
+  width: 100%;
+  align-self: flex-end;
+  background-color: #fff;
 }
-
-.gopy {
-  width: 550px;
+#title ul {
+  list-style: none;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+#title ul li {
+  width: 850px;
+  height: 250px;
+  padding: 0px 20px;
+  border-bottom: 1px solid #ccc;
+  border: 1px solid #ccc;
   float: left;
-  border: 0px solid #010;
+  clear: right;
+  margin: 0px;
+}
+#title ul li p:hover {
+  color: #00e676;
+}
+#title ul li h3:hover {
+  color: #00e676;
+}
+#title ul li h3 {
+  font-size: 20px;
+}
+#title ul li p {
+  height: auto;
+  text-align: left;
+  display: flex;
+  line-height: 20px;
+  font-size: 15px;
+}
+#title ul li p img {
+  margin-right: 15px;
+  width: auto;
   height: 150px;
-  background-color: #FFF;
 }
 /*# sourceMappingURL=app_tin_tuc.css.map */
