@@ -121,3 +121,7 @@ startAnimation = (x) => {
         }, i * 3000);
     }
 }
+
+function search() {
+    alert("error")
+}

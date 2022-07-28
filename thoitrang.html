@@ -5,80 +5,108 @@
     <title>Tin tức 24h/Thời trang</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="app_tin_tuc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 </head>
 <body onload="LoadRssThoiTrang()">
 <div id="wrap">
     <div id="header">
-        <img src="img/icon.png" alt="" class="img1"><br>
-        <h2 class="h2">Kiến thức - Kinh nghiệm - Hỏi đáp</h2>
-        <input type="submit" value="">
-        <form action="">
-            <input type="text" name="search" placeholder="Tìm bài viết,sản phẩm...">
-        </form>
-    </div>
+        <header>
+            <a href="index.html"><img src="img/icon.png" alt="logo" id="logo"></a>
+            <input type="text" name="search" id="search" placeholder="  Tìm Kiếm Bài Viết">
+            <p><a href="index.html" class="a1">Trang Chủ</a></p>
+            <p><a href="">Liên hệ</a></p>
+            <p><a href="dangki.html">Đăng ký</a></p>
+            <p><a href="dangnhap.html">Đăng nhập</a></p>
+        </header>
+        <ul class="header-list">
+            <li>
+                <a href="tintuctrongngay.html">Tin tức trong ngày</a>
+            </li>
+            <li>
+                <a href="thethao.html" class="a1">Bóng Đá</a>
+            </li>
+            <li>
+                <a href="anhs.html" class="a1">An ninh-Hình sự</a>
+            </li>
+            <li>
 
-    <div id="menu">
-        <div class="ul">
-            <ul>
-                <h3>
-                    <li><a href="index.html" class="a1">Trang chủ</a></li>
-                    <li><a href="tintuctrongngay.html" class="a1">Tin tin trong ngày</a></li>
-                    <li><a href="thethao.html" class="a1">Bóng đá</a></li>
-                    <li><a href="anhs.html" class="a1">An ninh-Hình sự</a></li>
-                    <li><a href="thoitrang.html" class="a1">Thời trang </a></li>
-                    <li><a href="Phim.html" class="a1">Phim</a></li>
-                    <li><a href="dangki.html" class="a1">Diễn đàn</a></li>
-                    <li><a href="gopy.html" class="a1">Góp ý</a></li>
-                </h3>
-            </ul>
-        </div>
-        <div class="dk">
-            <a href="dangki.html">Đăng ký</a> || <a href="dangnhap.html">Đăng nhập</a>
-        </div>
+                <a href="thoitrang.html" class="a1">Thời trang </a>
+            </li>
+            <li>
+                <a href="Phim.html" class="a1">Phim</a>
+            </li>
+            <li class="cskh"><a href="gopy.html" class="a1">Góp ý</a></li>
+            <li class="cskh"><a href="dangki.html" class="a1">Diễn đàn</a></li>
+        </ul>
     </div>
     <br>
     <div id="title">
         <ul id="item">
         </ul>
     </div>
-    <div id="footer">
-        <div class="divft1">
-            <p>&nbsp;</p>
-            <p>
-                <a href=""> TRANG CHỦ</a>
-            </p>
+    <br>
+    <footer>
+        <div id="footer_company">
+            <img src="img/icon.png" class="logo-footer" alt="logo">
+            <div id="footer_company-title">
+                <h4 class="footer_title">Công Ty Truyền Thông 24h</h4>
+                <p>livingOnlivingOn là doanh nghiệp hàng đầu cung cấp dịch vụ truyền thông và giải trí trong nước và
+                    quốc tế</p>
+            </div>
+            <div id="footer_company-info">
+                <p class="footer_title">THÔNG TIN LIÊN HỆ</p>
+                <i class="fa fa-location-arrow"> Giấy chứng nhận Đăng ký Kinh doanh số: 0104093672 do Phòng ĐKKD Thành
+                    phố Hà Nội Cấp ngày:
+                    12/07/2019</i>
+                <i class="fa fa-location-arrow"> VP giao dịch:
+                    Toà nhà N2, Km số 2, Đại lộ Thăng Long, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội.</i>
+                <i class="fa fa-envelope"><a href="#">cskh24h@gmail.com</a></i>
+                <i class="fa fa-phone"><a href="#">344660857</a></i>
+            </div>
         </div>
-        <div class="divft">
-            <h4>ICT-HDU </h4>
-            <a href="#">Khoa học</a> <br>
-            <a href="#">Công nghệ</a> <br>
-            <a href="#">Kỹ thuật</a> <br>
-            <a href="#">Cuộc sống</a> <br>
-            <a href="#">Điện máy</a>
+        <div id="footer_about">
+            <h4 class="footer_title">GIỚI THIỆU</h4>
+            <ul>
+                <li>Giới thiệu 24h</li>
+                <li>Trang Chủ</li>
+                <li>Về Chúng Tôi</li>
+                <li>Tuyển dụng</li>
+            </ul>
         </div>
-        <div class="divft">
-            <h4>FORUM </h4>
-            <a href="#">Điện thoại</a> <br>
-            <a href="#">Máy tính</a> <br>
-            <a href="#">Camera</a> <br>
-            <a href="#">Xe</a> <br>
-            <a href="#">Phụ kiện</a>
+        <div id="footer_suport">
+            <h4 class="footer_title">HỖ TRỢ KHÁCH HÀNG</h4>
+            <ul>
+                <li>Điều khoản sử dụng</li>
+                <li>Chính sách bảo mật thông tin</li>
+                <li>Chính sách quảng cáo</li>
+                <li>Hướng dẫn sử dụng dịch vụ</li>
+                <li>Câu hỏi thường gặp</li>
+                <li>Góp ý sản phẩm dịch vụ</li>
+                <li>Quy chế hoạt động</li>
+                <li>Truy cập nhanh</li>
+            </ul>
         </div>
-        <div class="divft">
-            <h4>LIÊN KẾT </h4>
-            <a href="#">Bien99</a> <br>
-            <a href="#">Study</a> <br>
-            <a href="#">Google</a>
+        <div id="footer-care">
+            <h4 class="footer_title">HỖ TRỢ</h4>
+            <div id="relate">
+                <div>
+                    <p>Liên hệ Hotline: 7:00 – 20:00</p>
+                    <p>19008095</p>
+                </div>
+            </div>
+            <h4>Kết Nối</h4>
+            <div id="connect">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+
         </div>
-        <div class="divft">
-            <h4>VỀ CHÚNG TÔI</h4>
-            <a href="#"> Facebook</a> <br>
-            <a href="#"> Youtube</a> <br>
-            <a href="#"> Google</a> <br>
-            <a href="#"> Skype</a></div>
-    </div>
+    </footer>
+
 </div>
-<script src="rss.js"></script>
+<script src="mdb/mdb5-ng/zips/MDB5-ANGULAR-UI-KIT-Pro-Advanced/templates/mdb-angular-admin-dashboards/src/test.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
