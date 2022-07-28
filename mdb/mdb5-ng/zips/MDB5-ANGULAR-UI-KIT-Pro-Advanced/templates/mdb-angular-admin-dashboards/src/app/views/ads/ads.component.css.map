@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"ads.component.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "ads.component.scss"
+    ],
+    "names": [],
+    "file": "ads.component.css"
+}

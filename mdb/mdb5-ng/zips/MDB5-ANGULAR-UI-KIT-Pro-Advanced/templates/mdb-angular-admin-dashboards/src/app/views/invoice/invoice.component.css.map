@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"invoice.component.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "invoice.component.scss"
+    ],
+    "names": [],
+    "file": "invoice.component.css"
+}

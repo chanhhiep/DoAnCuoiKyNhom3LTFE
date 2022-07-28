@@ -1,10 +1,19 @@
 .draggable {
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
   transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
 }
 
 .draggable-animating {
+  -webkit-transition: -webkit-transform 350ms ease;
+  transition: -webkit-transform 350ms ease;
   transition: transform 350ms ease;
+  transition: transform 350ms ease, -webkit-transform 350ms ease;
 }
 
 .draggable-dragging {
@@ -14,5 +23,4 @@
 .draggable-disabled {
   cursor: default;
 }
-
 /*# sourceMappingURL=drag-and-drop.css.map */

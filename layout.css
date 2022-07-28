@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --back-color:#135861;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.contain {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+.contain header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: 100px;
+}
+
+.contain header #logo {
+  width: 120px;
+  height: 60px;
+  margin-right: 50px;
+}
+
+.contain header #search {
+  width: 250px;
+  height: 35px;
+  border-radius: 50px;
+  outline: none;
+  border-style: double;
+  color: #9e9e9e;
+  font-size: 18px;
+}
+
+.contain header p {
+  margin-left: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contain header p:hover a {
+  color: #2E818C;
+}
+
+.contain header .head_login {
+  margin-left: 100px;
+  text-transform: uppercase;
+}
+
+.contain .header-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: var(--back-color);
+  height: 70px;
+  padding-left: 40px;
+}
+
+.contain .header-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 20px;
+  margin-left: 30px;
+  height: 70px;
+  color: white;
+}
+
+.contain .header-list li img {
+  width: 28px;
+  height: 28px;
+  margin-right: 3px;
+}
+
+.contain .header-list li:hover {
+  background-color: #0f8340;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 130vh;
+  border: 15px solid var(--back-color);
+}
+
+footer #footer_company {
+  width: 300px;
+  margin: 30px;
+}
+
+footer #footer_company .logo-footer {
+  height: 70px;
+  width: 150px;
+}
+
+footer #footer_company #footer_company-title {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #929292;
+}
+
+footer #footer_company #footer_company-title .footer_title {
+  margin: 10px 0px;
+}
+
+footer #footer_company #footer_company-info {
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer #footer_company #footer_company-info i {
+  margin-bottom: 10px;
+}
+
+footer #footer_company #footer_company-info .footer_title {
+  margin: 10px 0px;
+}
+
+footer #footer_about {
+  width: 300px;
+  margin: 87px 0px 0px 40px;
+}
+
+footer #footer_about .footer_title {
+  margin: 10px 0px;
+}
+
+footer #footer_about ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+footer #footer_suport {
+  width: 300px;
+  margin-top: 87px;
+}
+
+footer #footer_suport .footer_title {
+  margin: 10px 0px;
+}
+
+footer #footer_suport ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+footer #footer-care {
+  width: 300px;
+  margin-top: 87px;
+}
+
+footer #footer-care #relate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #888888;
+  margin-bottom: 20px;
+}
+
+footer #footer-care #relate .headset-img {
+  width: 100px;
+  height: 100px;
+}
+
+footer #footer-care #connect {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+footer #footer-care #connect i {
+  margin: 0px 20px;
+}
+/*# sourceMappingURL=layout.css.map */
