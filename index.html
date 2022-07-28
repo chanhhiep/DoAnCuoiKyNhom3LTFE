@@ -5,287 +5,110 @@
     <title>Tin tức 24h</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="app_tin_tuc.css">
-    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
 </head>
-<body>
+<body onload="LoadRssTrangChu()">
 <div id="wrap">
-    <!--
     <div id="header">
-        <img src="img/icon.png" alt="" class="img1"><br>
-        <h2 class="h2">Kiến thức - Kinh nghiệm - Hỏi đáp</h2>
-        <input type="submit" value="">
-        <form action="">
-            <input type="text" name="search" placeholder="Tìm bài viết,sản phẩm...">
-        </form>
-    </div>
-    <div id="menu">
-        <div class="ul">
-            <ul>
-                <h3>
-                    <li><a href="index.html.html" class="a1">Trang chủ</a></li>
-                    <li><a href="thethao.html" class="a1">Bóng đá</a></li>
-                    <li><a href="thoitrang.html" class="a1">Thời trang </a></li>
-                    <li><a href="ict.html" class="a1"> CNTT </a></li>
-                    <li><a href="dangki.html" class="a1">Diễn đàn</a></li>
-                    <li><a href="gopy.html" class="a1">Góp ý</a></li>
-                </h3>
-            </ul>
-        </div>
-        <div class="dk">
-            <a href="mdb/mdb5-ng/zips/MDB5-ANGULAR-UI-KIT-Pro-Advanced/src/dangki.html">Đăng ký</a> || <a href="dangnhap.html">Đăng nhập</a>
-        </div>
-    </div>
-    -->
-    <div class="contain">
         <header>
-            <a href="./home.html"><img src="./img/icon.png" alt="logo" id="logo"></a>
+            <a href="index.html"><img src="img/icon.png" alt="logo" id="logo"></a>
             <input type="text" name="search" id="search" placeholder="  Tìm Kiếm Bài Viết">
-            <p><a href="./pre_product.html">Trang Chủ</a></p>
-            <p><a href="#">Magazine</a></p>
-            <p><a href="./brand.html">Contact</a></p>
-            <a href="./login.html" class="head_login">Login/SignUp</a>    
+            <p><a href="index.html" class="a1">Trang Chủ</a></p>
+            <p><a href="">Liên hệ</a></p>
+            <p><a href="dangki.html">Đăng ký</a></p>
+            <p><a href="dangnhap.html">Đăng nhập</a></p>
         </header>
         <ul class="header-list">
             <li>
-                <img src="./img/icons8-increase-96-copy-1541383138-358-width19height19 (1).png" alt="Business">
-                <p>Kinh Doanh</p>
+                <a href="tintuctrongngay.html">Tin tức trong ngày</a>
             </li>
             <li>
-                <img src="./img/icons8-soccer-ball-96-copy-1541383138-270-width20height20.png" alt="football">
-                <p>Bóng Đá</p>
+                <a href="thethao.html" class="a1">Bóng Đá</a>
             </li>
             <li>
-                <img src="./img/giaitri-1541403843-696-width20height20-1644810348-714-width20height20.png" alt="fashion">
-                <p>Giai Trí</p>
+               <a href="anhs.html" class="a1">An ninh-Hình sự</a>
             </li>
             <li>
-                <img src="./img/heartbeat1-1541383138-349-width20height18.png" alt="fashion">
-                <p>Sức Khỏe</p>
+
+                <a href="thoitrang.html" class="a1">Thời trang </a>
             </li>
             <li>
-                <img src="./img/thethao-1579244755-985-width20height22.png" alt="fashion">
-                <p>Thể Thao</p>
+                <a href="Phim.html" class="a1">Phim</a>
             </li>
-            <li>
-                <img src="./img/icons8-smartphone-tablet-52-copy-1541383138-560-width20height20.png" alt="fashion">
-                <p>Công Nghệ</p>
-            </li>
-            <li class="cskh">Góp Ý</li>
-            <li class="cskh">Hỏi Đáp</li>
+            <li class="cskh"><a href="gopy.html" class="a1">Góp ý</a></li>
+            <li class="cskh"><a href="dangki.html" class="a1">Diễn đàn</a></li>
         </ul>
     </div>
-    <div id="noi-dung">
-        <div id="contend">
-            <div class="contend-1">
-                <div class="contend-11">
-
-                    <a href="dangnhap.html">
-                        <h3 class="divtb"><p>TIN NỔI BẬT</p></h3>
-                    </a>
-                    <img src="img/win2.jpg" alt="" class="img2">
-                    <a href="http://genk.vn/samsung-galaxy-s10-vs-xiaomi-mi-9-cung-cau-hinh-manh-3-camera-cam-bien-van-tay-duoi-man-hinh-lieu-s10-co-dang-muc-gia-gap-doi-20190301133736815.chn"
-                       class="a1">
-                        <h2> 6 Giải pháp đơn giản giúp khắc phục lỗi khởi động chậm trên Windows 10 </h2>
-                    </a>
-                    <a href="dangnhap.html">
-                        <h3 class="divtb"><p>ĐỪNG BỎ LỠ</p></h3>
-                    </a>
-                    <hr>
-                    <span>
-                        <img src="img/anh1.jpg" width="200" height="200" alt="">
-                        <a href="">
-                            <h2> 5 công cụ giám sát cơ sở hạ tầng CNTT tốt nhất</h2>
-                            <br>
-                            <h4> Các công cụ và phần mềm giám sát cơ sở hạ tầng CNTT rất quan trọng trong việc theo dõi những hệ thống mạng phức tạp và đang phát triển nhanh chóng như hiện nay.</h4> <br>
-                            <p>6 phút trước</p>
-                        </a>
-                    </span>
-                    <hr>
-                    <span>
-                        <img src="img/anh2.jpg" width="200" height="200" alt="">
-                        <a href="">
-                            <h2> Lập trình viên sử dụng 12.000 dòng code ‘lột xác’ hoàn toàn cho đồ họa trong game Quake 2 từ năm 1997</h2>
-                            <br>
-                            <h4> NVIDIA đã bắt tay với các lập trình viên của dự án để có thể tạo ra Quake II RTX, một game thuần hiệu ứng dò tia sáng.</h4>
-                            <br>
-                            <p>6 phút trước</p>
-                        </a>
-                    </span>
-                    <hr>
-                    <span>
-                        <img src="img/anh3.jpg" width="200" height="200" alt="">
-                        <a href="">
-                            <h2> Chiêm ngưỡng ứng dụng AI mới của Nvidia: Biến nét vẽ nguệch ngoạc theo phong cách MS Paint thành những “kiệt tác” nghệ thuật</h2>
-                            <br>
-                           <h4> Mới đây, các nhà nghiên cứu trí tuệ nhân tạo Nvidia đã phát triển thành công một mô hình học sâu (deep learning) có khả năng...</h4>
-                            <br>
-                            <p>6 phút trước</p>
-                        </a>
-                    </span>
-                    <hr>
-                    <span>
-                        <img src="img/anh4.jpg" width="200" height="200" alt="">
-                        <a href="">
-                            <h2> Cách mở 178 định dạng ảnh trên Windows 10 </h2>
-                            <br>
-                           <h4>Ứng dụng Picture Opener Pro sẽ mở nhiều định dạng ảnh, mà không cần phải chuyển đổi định dạng.</h4>
-                            <br>
-                            <p>6 phút trước</p>
-                        </a>
-                    </span>
-                </div>
-
-                <div class="div1212"><b> Tin công nghệ <img src="img/hot.gif" width="30" height="30"></b> <br>
-                    <br>
-                    <marquee onmouseover="this.stop()" direction="up" onmouseout="this.start()" Scroll scrollamount="5">
-                        <a href="#">Những chiếc Samsung Galaxy S10 đầu tiên đến tay Khách Hàng Việt Nam</a>
-                        <hr>
-                        <a href="#">E ngại sức ép từ Mỹ, Huawei cầu cứu các nhà cung cấp Nhật Bản</a>
-                        <hr>
-                        <a href="#">Các tiện ích Cổng thanh toán PayPal dành cho bạn</a>
-                        <hr>
-                        <a href="#">Cách cài WordPress cục bộ trên máy tính với ServerPress</a>
-                        <hr>
-                        <a href="#">Cách gỡ cài đặt Ubuntu an toàn khỏi PC dual boot Windows</a>
-                        <hr>
-                        <a href="#">Tính năng nhận dạng chữ viết tay mới của Gboard được tích hợp AI, giảm thiểu lỗi tới
-                            40%</a>
-                        <hr>
-                        <a href="#">10 phím tắt mà người dùng hay vô tình nhấn phải </a>
-                        <hr>
-                        <a href="#">"Thứ giúp Samsung đả bại Apple chính là jack 3.5mm"</a>
-                    </marquee>
-                </div>
+    <br>
+    <div id="title">
+        <ul id="item">
+        </ul>
+    </div>
+    <br>
+    <footer>
+        <div id="footer_company">
+            <img src="img/icon.png" class="logo-footer" alt="logo">
+            <div id="footer_company-title">
+                <h4 class="footer_title">Công Ty Truyền Thông 24h</h4>
+                <p>livingOnlivingOn là doanh nghiệp hàng đầu cung cấp dịch vụ truyền thông và giải trí trong nước và
+                    quốc tế</p>
+            </div>
+            <div id="footer_company-info">
+                <p class="footer_title">THÔNG TIN LIÊN HỆ</p>
+                <i class="fa fa-location-arrow"> Giấy chứng nhận Đăng ký Kinh doanh số: 0104093672 do Phòng ĐKKD Thành
+                    phố Hà Nội Cấp ngày:
+                    12/07/2019</i>
+                <i class="fa fa-location-arrow"> VP giao dịch:
+                    Toà nhà N2, Km số 2, Đại lộ Thăng Long, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội.</i>
+                <i class="fa fa-envelope"><a href="#">cskh24h@gmail.com</a></i>
+                <i class="fa fa-phone"><a href="#">344660857</a></i>
             </div>
         </div>
-        <div class="right">
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2019/2/28/636869719313136991_H2.png" class="qc1">
-            <img src="img/qc4.png" class="qc4" alt="">
-            <img src="img/qc3.gif" width="300" height="250" alt="">
-            <br>
-            <h3>ICT news</h3>
-            <br>
-            <div class="r1">
-                <b> <img src="img/r1.jpg" width="80" height="80">
-                    <a href="#"> Cách khắc phục lỗi “Tin nhắn không gửi được” trên điện thoại Android</a>
-                </b>
+        <div id="footer_about">
+            <h4 class="footer_title">GIỚI THIỆU</h4>
+            <ul>
+                <li>Giới thiệu 24h</li>
+                <li>Trang Chủ</li>
+                <li>Về Chúng Tôi</li>
+                <li>Tuyển dụng</li>
+            </ul>
+        </div>
+        <div id="footer_suport">
+            <h4 class="footer_title">HỖ TRỢ KHÁCH HÀNG</h4>
+            <ul>
+                <li>Điều khoản sử dụng</li>
+                <li>Chính sách bảo mật thông tin</li>
+                <li>Chính sách quảng cáo</li>
+                <li>Hướng dẫn sử dụng dịch vụ</li>
+                <li>Câu hỏi thường gặp</li>
+                <li>Góp ý sản phẩm dịch vụ</li>
+                <li>Quy chế hoạt động</li>
+                <li>Truy cập nhanh</li>
+            </ul>
+        </div>
+        <div id="footer-care">
+            <h4 class="footer_title">HỖ TRỢ</h4>
+            <div id="relate">
+                <div>
+                    <p>Liên hệ Hotline: 7:00 – 20:00</p>
+                    <p>19008095</p>
+                </div>
             </div>
-            <hr>
-            <div class="r1">
-                <img src="img/r2.png" width="80" height="80">
-                <a href="#"> Cách sửa lỗi website hiện tiếng Pháp trên Chrome, Firefox </a></div>
-            <hr>
-            <div class="r1">
-                <img src="img/r3.jpg" width="80" height="80">
-                <a href="#"> Mẹo khởi động thiết bị Android khi bị hỏng nút nguồn</a></div>
-            <hr>
-            <div class="r1">
-                <img src="img/r4.jpg" width="80" height="80">
-                <a href="#"> Chiêm ngưỡng 19 bức ảnh tuy thật mà còn vi diệu hơn cả Photoshop</a></div>
-            <hr>
+            <h4>Kết Nối</h4>
+            <div id="connect">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+
         </div>
-    </div>
-    <!--
-    <div id="footer">
-        <div class="divft1">
-            <p>&nbsp;</p>
-            <p>
-                <a href=""> TRANG CHỦ</a>
-            </p>
-        </div>
-        <div class="divft">
-            <h4>ICT-HDU </h4>
-            <a href="#">Khoa học</a> <br>
-            <a href="#">Công nghệ</a> <br>
-            <a href="#">Kỹ thuật</a> <br>
-            <a href="#">Cuộc sống</a> <br>
-            <a href="#">Điện máy</a>
-        </div>
-        <div class="divft">
-            <h4>FORUM </h4>
-            <a href="#">Điện thoại</a> <br>
-            <a href="#">Máy tính</a> <br>
-            <a href="#">Camera</a> <br>
-            <a href="#">Xe</a> <br>
-            <a href="#">Phụ kiện</a>
-        </div>
-        <div class="divft">
-            <h4>LIÊN KẾT </h4>
-            <a href="#">Bien99</a> <br>
-            <a href="#">Study</a> <br>
-            <a href="#">Google</a>
-        </div>
-        <div class="divft">
-            <h4>VỀ CHÚNG TÔI</h4>
-            <a href="#"> Facebook</a> <br>
-            <a href="#"> Youtube</a> <br>
-            <a href="#"> Google</a> <br>
-            <a href="#"> Skype</a></div>
-    </div>
--->
-<footer>
-    <div id="footer_company">
-        <img src="./img/icon.png" class="logo-footer" alt="logo">
-        <div id="footer_company-title">
-          <h4 class="footer_title">Công Ty Truyền Thông 24h</h4>
-          <p>livingOnlivingOn là doanh nghiệp hàng đầu cung cấp dịch vụ truyền thông và giải trí trong nước và quốc tế</p>
-        </div>
-        <div id="footer_company-info">
-          <p class="footer_title">THÔNG TIN LIÊN HỆ</p>
-          <i class="fa fa-location-arrow"> Giấy chứng nhận Đăng ký Kinh doanh số: 0104093672 do Phòng ĐKKD Thành phố Hà Nội Cấp ngày:
-            12/07/2019</i>
-          <i class="fa fa-location-arrow"> VP giao dịch:
-            Toà nhà N2, Km số 2, Đại lộ Thăng Long, Phường Mễ Trì, Quận Nam Từ Liêm, Hà Nội.</i>
-          <i class="fa fa-envelope"><a href="#">cskh24h@gmail.com</a></i>
-          <i class="fa fa-phone"><a href="#">344660857</a></i>
-        </div>
-    </div>
-    <div id="footer_about">
-        <h4 class="footer_title">GIỚI THIỆU</h4>
-        <ul>
-          <li>Giới thiệu 24h</li>
-          <li>Trang Chủ</li>
-          <li>Magazine</li>
-          <li>Về Chúng Tôi</li>
-          <li>Tuyển dụng</li>
-        </ul>
-    </div>
-    <div id="footer_suport">
-        <h4 class="footer_title">HỖ TRỢ KHÁCH HÀNG</h4>
-        <ul>
-          <li>Điều khoản sử dụng</li>
-          <li>Chính sách bảo mật thông tin</li>
-          <li>Chính sách quảng cáo</li>
-          <li>Hướng dẫn sử dụng dịch vụ</li>
-          <li>Câu hỏi thường gặp</li>
-          <li>Góp ý sản phẩm dịch vụ</li>
-          <li>Quy chế hoạt động</li>
-          <li>Truy cập nhanh</li>
-        </ul>
-    </div>
-    <div id="footer-care">
-        <h4 class="footer_title">HỖ TRỢ</h4>
-        <div id="relate">
-          <img src="./images/icon/contact.png" class="headset-img" alt="headset">
-          <div>
-            <p>Liên hệ Hotline: 7:00 – 20:00</p>
-            <p>19008095</p>
-          </div>
-        </div>
-        <h4>Kết Nối</h4>
-        <div id="connect">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-youtube"></i>
-            <i class="fa fa-instagram"></i>
-            <i class="fa fa-envelope"></i>
-        </div>
-        <div id="goverment">
-          <img src="./images/main/3789dc38345df7794b78d37ead0a8529-200x75.png" class="goverment-img">
-        </div>
-      </div>
-</footer>
+    </footer>
+
 </div>
+
+<script src="mdb/mdb5-ng/zips/MDB5-ANGULAR-UI-KIT-Pro-Advanced/templates/mdb-angular-admin-dashboards/src/test.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script src="./script_template.js"></script>
 </body>
 </html>
