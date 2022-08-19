@@ -3,6 +3,25 @@
     "@reactivex/rxjs": "^6.6.7",
     "mdb-ui-kit": "^4.2.0",
     "rss-parser": "^3.12.0",
-    "rxjs": "^7.5.6"
-  }
+    "rxjs": "^7.5.6",
+    "uniq": "^1.0.1"
+  },
+  "name": "doancuoikynhom3ltfe",
+  "version": "1.0.0",
+  "main": "crapper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chanhhiep/DoAnCuoiKyNhom3LTFE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chanhhiep/DoAnCuoiKyNhom3LTFE/issues"
+  },
+  "homepage": "https://github.com/chanhhiep/DoAnCuoiKyNhom3LTFE#readme",
+  "description": ""
 }
