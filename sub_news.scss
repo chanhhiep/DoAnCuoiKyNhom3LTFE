@@ -1,0 +1,81 @@
+body{
+    #wrap{
+        .container{
+            .container_first{
+                .contain_first{
+                    ul{
+                        li {
+                            list-style: none;
+                            display: flex;
+                            flex-direction: column;
+                            p{
+                                font-size: 14px;
+                                margin-top: 5vh;
+                                display: flex;
+                                flex-direction: column;
+                                text-align: justify;
+                                img{
+                                    height: 25vh;
+                                    width: 20vw;
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+                    }
+                }
+                .contain_second{
+                    ul{
+                        li{
+                            p{
+                                img{
+                                    margin-top: 4vh;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }  
+        }
+        #title{
+            #item{
+                li{
+                    p{
+                        font-size: 13px;
+                        color:black;
+                        img{
+                            height: 30vh;
+                            width: 23vw;
+                            object-fit: cover;
+                            padding: 10px 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.contain_first{
+    ul{
+        li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            p{
+                font-size: 14px;
+                margin-top: 5vh;
+                display: flex;
+                flex-direction: column;
+                text-align: justify;
+                img{
+                    height: 25vh;
+                    width: 20vw;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+#item{
+
+}

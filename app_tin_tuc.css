@@ -2,7 +2,8 @@
   padding: 0px;
   margin: 0px;
   webkit-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 :root {
@@ -11,7 +12,7 @@
 
 body {
   color: #eff0f5;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #wrap {
@@ -24,6 +25,7 @@ body {
   left: 0;
   top: 0;
 }
+
 #header header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,13 +41,17 @@ body {
   -ms-flex-align: center;
   background-color: white;
   height: 100px;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
+
 #header header #logo {
   width: 120px;
   height: 60px;
   margin-right: 50px;
 }
+
 #header header #search {
   width: 250px;
   height: 35px;
@@ -55,6 +61,7 @@ body {
   color: #9e9e9e;
   font-size: 18px;
 }
+
 #header header p {
   margin-left: 30px;
   text-transform: uppercase;
@@ -62,9 +69,11 @@ body {
   -webkit-transition: 1s;
   transition: 1s;
 }
+
 #header header p:hover a {
   color: #00e676;
 }
+
 #header .header-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -83,6 +92,7 @@ body {
   height: 70px;
   padding-left: 40px;
 }
+
 #header .header-list li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,11 +112,13 @@ body {
   height: 70px;
   color: white;
 }
+
 #header .header-list li img {
   width: 28px;
   height: 28px;
   margin-right: 3px;
 }
+
 #header .header-list li:hover {
   background-color: #00e676;
 }
@@ -127,26 +139,36 @@ footer {
   border: 5px solid var(--back-color);
   color: black;
   width: 1700px;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: baseline;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
+
 footer #footer_company {
   width: 300px;
   margin: 30px;
 }
+
 footer #footer_company .logo-footer {
   height: 70px;
   width: 150px;
 }
+
 footer #footer_company #footer_company-title {
   padding-bottom: 20px;
   border-bottom: 1px solid #929292;
 }
+
 footer #footer_company #footer_company-title .footer_title {
   margin: 10px 0px;
 }
+
 footer #footer_company #footer_company-info {
   margin: 20px 0px;
   display: -webkit-box;
@@ -157,38 +179,48 @@ footer #footer_company #footer_company-info {
   -ms-flex-direction: column;
   flex-direction: column;
 }
+
 footer #footer_company #footer_company-info i {
   margin-bottom: 10px;
 }
+
 footer #footer_company #footer_company-info .footer_title {
   margin: 10px 0px;
 }
+
 footer #footer_about {
   width: 300px;
   margin: 87px 0px 0px 40px;
 }
+
 footer #footer_about .footer_title {
   margin: 10px 0px;
 }
+
 footer #footer_about ul li {
   list-style: none;
   margin: 10px 0px;
 }
+
 footer #footer_suport {
   width: 300px;
   margin-top: 87px;
 }
+
 footer #footer_suport .footer_title {
   margin: 10px 0px;
 }
+
 footer #footer_suport ul li {
   list-style: none;
   margin: 10px 0px;
 }
+
 footer #footer-care {
   width: 300px;
   margin-top: 87px;
 }
+
 footer #footer-care #relate {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,12 +237,16 @@ footer #footer-care #relate {
   align-items: center;
   color: #888888;
   margin-bottom: 20px;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
+
 footer #footer-care #relate .headset-img {
   width: 100px;
   height: 100px;
 }
+
 footer #footer-care #connect {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -228,6 +264,7 @@ footer #footer-care #connect {
   font-size: 25px;
   margin: 20px 0px;
 }
+
 footer #footer-care #connect i {
   margin: 0px 20px;
 }
@@ -239,18 +276,22 @@ span {
   float: left;
   padding-bottom: 17px;
 }
+
 span img {
   float: left;
   padding-right: 20px;
 }
+
 span p {
   float: right;
   padding-top: 50px;
   font-style: italic;
 }
+
 span h2 {
   font-size: 23px;
 }
+
 span h4 {
   font-size: 15px;
 }
@@ -263,22 +304,27 @@ span h4 {
   margin-left: 90px;
   color: black;
 }
+
 #login .tk {
   margin-left: 200px;
   float: left;
 }
+
 #login .tk2 {
   float: left;
   margin-left: 200px;
 }
+
 #login input {
   width: 300px;
   height: 30px;
 }
-#login input[type=submit] {
+
+#login input[type="submit"] {
   background-color: #F93;
   height: 50px;
 }
+
 #login .login1 {
   width: 450px;
   float: left;
@@ -287,6 +333,7 @@ span h4 {
   margin-left: 150px;
   line-height: 2;
 }
+
 #login .login2 {
   width: 305px;
   height: 250px;
@@ -297,6 +344,7 @@ span h4 {
   text-shadow: #F00;
   text-align: center;
 }
+
 #login .login2 img {
   margin-top: 10px;
 }
@@ -310,16 +358,19 @@ span h4 {
   color: black;
   height: auto;
 }
+
 #gb h2 {
   margin-top: 10px;
   float: left;
   color: #1795D5;
 }
+
 #gb img {
   float: left;
   width: 70px;
   height: 50px;
 }
+
 #gb .gp1 {
   width: 550px;
   float: left;
@@ -327,16 +378,20 @@ span h4 {
   height: auto;
   background-color: #FFF;
 }
+
 #gb .gp1 hr {
   color: #E00;
 }
+
 #gb .gp1 ul {
   margin-left: 50px;
   margin-top: 30px;
 }
+
 #gb .gp1 li {
   height: 35px;
 }
+
 #gb .gb2 {
   width: 570px;
   float: right;
@@ -344,10 +399,12 @@ span h4 {
   height: auto;
   background-color: #FFF;
 }
+
 #gb .gb2 ul {
   margin-left: 30px;
   margin-top: 0px;
 }
+
 #gb .gb3 {
   width: 600px;
   border: 0px solid #010;
@@ -356,25 +413,30 @@ span h4 {
   float: left;
   margin-left: 300PX;
 }
+
 #gb .gb3 h3 {
   color: #f00000;
   text-align: center;
 }
+
 #gb .gb3 input {
   width: 150px;
 }
 
 #title {
   width: 100%;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   background-color: #fff;
 }
+
 #title ul {
   list-style: none;
   height: auto;
   margin: 0;
   padding: 0;
 }
+
 #title ul li {
   width: 850px;
   height: 250px;
@@ -385,30 +447,37 @@ span h4 {
   clear: right;
   margin: 0px;
 }
+
 #title ul li a {
   text-decoration: none;
 }
+
 #title ul li p:hover {
   color: #00e676;
 }
+
 #title ul li h3:hover {
   color: #00e676;
 }
+
 #title ul li h3 {
   font-size: 20px;
 }
+
 #title ul li p {
   height: auto;
   text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   line-height: 20px;
   font-size: 15px;
   color: black;
 }
+
 #title ul li p img {
   margin-right: 15px;
   width: auto;
   height: 150px;
 }
-
 /*# sourceMappingURL=app_tin_tuc.css.map */

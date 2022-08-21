@@ -1,50 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" >
-    <title>Tin tức 24h/An ninh - Hình sự</title>
+    <meta charset="UTF-8">
+    <title>Tin tức 24h</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="app_tin_tuc.css">
+    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="sub_news.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body onload="LoadRssAnNinhHinhSu()">
 <div id="wrap">
     <div id="header">
         <header>
-            <a href="index.html"><img src="img/icon.png" alt="logo" id="logo"></a>
-            <input type="text" name="search" id="search" placeholder="  Tìm Kiếm Bài Viết">
-            <p><a href="index.html" class="a1">Trang Chủ</a></p>
-            <p><a href="">Liên hệ</a></p>
-            <p><a href="dangki.html">Đăng ký</a></p>
-            <p><a href="dangnhap.html">Đăng nhập</a></p>
+            <a href="home.html"><img src="./img/24h_logo_trang_chu_2015.png" alt="logo" id="logo"></a>
+            <input type="text" name="search" id="search" placeholder="Nhập tin tức cần tìm">
+            <ul class="header_list">
+                <li>
+                    <a href=".#" class="header_atag">
+                        <img src="./img/logo_icon-25x25px--1647851648-464-width25height25.png" alt="">
+                        <p>Danh mục</p>
+                        <!--
+                        <ul class="header_nav" style="
+                            margin-top: 42vh;" d>
+                            <li><a href="#">Kinh Doanh</a></li>
+                            <li><a href="#">Giải Trí</a></li>
+                            <li><a href="#">An Ninh</a></li>
+                            <li><a href="#">Thể Thao</a></li>
+                            <li><a href="#">Thời Trang</a></li>
+                        </ul>
+                        -->
+                   
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="tintuctrongngay.html" class="header_atag">
+                        <img src="./img/tintuc-1541403404-944-width20height18.png" alt="">
+                        <p>Tin Hot</p>
+                    </a>
+                    <!--<ul class="header_nav" style="
+                    margin-top: 28vh;">
+                        <li><a href="#">Tin Hot Trong Ngày</a></li>
+                        <li><a href="#">Cộng Đồng Mạng Xem Gì</a></li>
+                        <li><a href="#">Tin Nhiều Lượt Đọc</a></li>
+                    </ul>-->
+                </li>
+                <li>
+                    <a href="#" class="header_atag">
+                        <img src="./img/icons8-increase-96-copy-1541383138-358-width19height19 (1).png" alt="">
+                        <p>Kinh Doanh</p>
+                    </a>
+                    <!--
+                    <ul class="header_nav" style="
+                        margin-top: 56vh;">
+                            <li><a href="#">Doanh Nhân</a></li>
+                            <li><a href="#">Tài Chính</a></li>
+                            <li><a href="#">Khởi nghiệp</a></li>
+                            <li><a href="#">Doanh Nghiệp</a></li>
+                            <li><a href="#">Bất Động Sản</a></li>
+                            <li><a href="#">Ngân Hàng</a></li>
+                            <li><a href="#">Chứng Khoán</a></li>
+                    </ul>
+                    -->
+                </li>
+                <li>
+                    <a href="Phim.html" class="header_atag">
+                        <img src="./img/giaitri-1541403843-696-width20height20-1644810348-714-width20height20.png" alt="">
+                        <p>Giải Trí</p>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="anhs.html" class="header_atag">
+                        <img src="./img/phapluat-1541394100-901-width20height18.png" alt="">
+                        <p>An Ninh</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="thethao.html" class="header_atag">
+                        <img src="./img/thethao-1579244755-985-width20height22.png" alt="">
+                        <p>Thể Thao</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="thoitrang.html" class="header_atag">
+                        <img src="./img/thoitrang-1541403615-644-width12height20.png" alt="">
+                        <p>Thời Trang</p>
+                    </a>
+                </li>
+               
+            </ul>
+            
         </header>
-        <ul class="header-list">
-            <li>
-                <a href="tintuctrongngay.html">Tin tức trong ngày</a>
-            </li>
-            <li>
-                <a href="thethao.html" class="a1">Bóng Đá</a>
-            </li>
-            <li>
-                <a href="anhs.html" class="a1">An ninh-Hình sự</a>
-            </li>
-            <li>
-
-                <a href="thoitrang.html" class="a1">Thời trang </a>
-            </li>
-            <li>
-                <a href="Phim.html" class="a1">Phim</a>
-            </li>
-            <li class="cskh"><a href="gopy.html" class="a1">Góp ý</a></li>
-            <li class="cskh"><a href="dangki.html" class="a1">Diễn đàn</a></li>
-        </ul>
     </div>
-    <br>
+    <div class="container">
+        <div class="container_first">
+            <div class="contain_first" id="contain_first">
+                <h3>Tin Tức Nổi Bật</h3>
+                <p class="line"></p>
+                <ul id="top">  
+                </ul>
+            </div>
+            <div class="contain_second">
+                <h3>Tin Tức Trong Ngày</h3>
+                <p class="line"></p>
+                <ul id="popular">  
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="tintuc">
+        <h3>Tin Tức Hôm Nay</h3>
+        <p class="line"></p>
+    </div>
     <div id="title">
         <ul id="item">
         </ul>
     </div>
-    <br>
+    
     <footer>
         <div id="footer_company">
             <img src="img/icon.png" class="logo-footer" alt="logo">
@@ -109,5 +184,7 @@
 
 <script src="mdb/mdb5-ng/zips/MDB5-ANGULAR-UI-KIT-Pro-Advanced/templates/mdb-angular-admin-dashboards/src/test.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="./script_template.js"></script>
+<script src="./rss.js"></script>
 </body>
 </html>

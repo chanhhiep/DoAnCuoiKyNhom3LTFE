@@ -1,6 +1,17 @@
 window.addEventListener('scroll',function(){
-    var header_list = document.querySelector(".header-list");
-    header_list.classList.toggle('sticky',window.scrollY > 0);
     var header = document.querySelector("header");
     header.classList.toggle('sticky1',window.scrollY > 0);
 })
+
+function truncateText(selector, maxLength) {
+    
+    var element = document.querySelector(selector),
+        truncated = element.textContent;
+
+    if (truncated.length > maxLength) {
+        truncated = truncated.substr(0,maxLength) + '...';
+    }
+    return truncated;
+}
+
+document.querySelector('#select').textContent = truncateText('#select', 20);
