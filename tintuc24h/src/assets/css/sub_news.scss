@@ -1,0 +1,190 @@
+body{
+    #wrap{
+        .container_wrap{
+            .container{
+                .con_f{
+                    .cf{
+                        ul{
+                            li {
+                                list-style: none;
+                                display: flex;
+                                flex-direction: column;
+                                p{
+                                    font-size: 14px;
+                                    margin-top: 5vh;
+                                    display: flex;
+                                    flex-direction: column;
+                                    text-align: justify;
+                                    img{
+                                        height: 25vh;
+                                        width: 20vw;
+                                        object-fit: cover;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .contain_s{
+                        ul{
+                            li{
+                                p{
+                                    img{
+                                        margin-top: 4vh;
+                                    }
+                                }
+                            }
+                        }
+                        
+                    }
+                }  
+            }
+            .titles{
+                #item{
+                    li{
+                        p{
+                            font-size: 13px;
+                            color:black;
+                            a{
+                                img{
+                                    height: 30vh;
+                                    width: 23vw;
+                                    object-fit: cover;
+                                    padding: 10px 0px;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 576px) { 
+    body{
+        #wrap{
+            .container_wrap{
+                .container{
+                    .con_f{
+                        .cf{
+                            ul{
+                                li {
+                                    list-style: none;
+                                    display: flex;
+                                    flex-direction: column;
+                                    p{
+                                        margin-top: 0vh;
+                                        font-size: 14px;
+                                        display: flex;
+                                        flex-direction: column;
+                                        text-align: justify;
+                                        img{
+                                            height: 13vh;
+                                            width: 70vw;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .contain_s{
+                            ul{
+                                li{
+                                    p{
+                                        img{
+                                            margin-top: 4vh;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }  
+                }
+                .titles{
+                    #item{
+                        li{
+                            p{
+                                font-size: 13px;
+                                color:black;
+                                a{
+                                    img{
+                                        height: 30vh;
+                                        width: 23vw;
+                                        object-fit: cover;
+                                        padding: 10px 0px;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+    body{
+        #wrap{
+            .container_wrap{
+                .container{
+                    .con_f{
+                        .cf{
+                            ul{
+                                li {
+                                    list-style: none;
+                                    display: flex;
+                                    flex-direction: column;
+                                    p{
+                                        font-size: 14px;
+                                        margin-top: 1vh;
+                                        display: flex;
+                                        flex-direction: column;
+                                        text-align: justify;
+                                        img{
+                                            height: 10vh;
+                                            width: 30vw;
+                                            object-fit: cover;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .contain_s{
+                            ul{
+                                li{
+                                    p{
+                                        img{
+                                            margin-top: 0vh;
+                                        }
+                                    }
+                                }
+                            }
+                            
+                        }
+                    }  
+                }
+                .titles{
+                    #item{
+                        li{
+                            p{
+                                font-size: 14px;
+                                color:black;
+                                a{
+                                    img{
+                                        height: 10vh;
+                                        width: 30vw;
+                                        object-fit: cover;
+                                        padding: 10px 0px;
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
